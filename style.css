@@ -1,0 +1,151 @@
+/*Feedaback*/
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 20%;
+    background: linear-gradient(180deg, #77B6EA, #49A09D);
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+}
+
+.sidebar h1 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sidebar nav a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: background 0.3s;
+}
+
+.sidebar nav a:hover, .sidebar nav a.active {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Content */
+.content {
+    margin-left: 20%;
+    padding: 20px;
+    background: #f9f9f9;
+    min-height: 100vh;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    color: #49A09D;
+}
+
+.header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Feedback Section */
+.feedback-section {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.feedback-list, .feedback-form {
+    width: 48%;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.feedback-list h2, .feedback-form h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.feedback {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.feedback h4 {
+    margin: 0;
+    color: #333;
+}
+
+.feedback small {
+    color: #999;
+    font-size: 0.9em;
+}
+
+.feedback p {
+    color: #555;
+    font-size: 1em;
+}
+
+/* Feedback Form */
+.feedback-form textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.feedback-form .submit-feedback {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #49A09D;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.feedback-form .submit-feedback:hover {
+    background: #3C8C85;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+    font-size: 0.9em;
+}
+.hidden {
+    display: none;
+}
+
+#confirmationMessage {
+    margin-top: 10px;
+    font-size: 1em;
+    color: green;
+    text-align: center;
+}
+
+
+

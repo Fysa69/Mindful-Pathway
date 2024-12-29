@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="sidebar">
+        <h1>🌿 MINDFUL PATHWAY</h1>
+        <nav>
+            <a href="index.html"><i class="fas fa-home"></i> Home</a>
+            <a href="#"><i class="fas fa-info-circle"></i> About</a>
+            <a href="#"><i class="fas fa-user"></i> My Profile</a>
+            <a href="article.html"><i class="fas fa-file-alt"></i> Article</a>
+            <a href="#" class="active"><i class="fas fa-comments"></i> Feedback</a>
+            <a href="index.html" class="logout-button"><i class="fas fa-sign-out-alt"></i> Log Out</a>
+        </nav>
+    </div>
+
+    <div class="content">
+        <header class="header">
+            <h1>Feedback From Our Community</h1>
+            <p>We value your opinions. Share your thoughts and help us improve!</p>
+        </header>
+        
+        <div class="feedback-section">
+            <!-- Feedback List -->
+            <div class="feedback-list">
+                <h2>🌟 Community Feedback</h2>
+                <div class="feedback">
+                    <h4>Sarah Ali</h4>
+                    <small>Posted on: 2024-10-23</small>
+                    <p>This article was very informative. I learned a lot about mindfulness and how it can help in daily life. Thank you for sharing!</p>
+                </div>
+                <div class="feedback">
+                    <h4>Harris Shuaib</h4>
+                    <small>Posted on: 2024-09-09</small>
+                    <p>I really appreciate how you explained the steps to manage anxiety. I will definitely try some of these techniques!</p>
+                </div>
+                <div class="feedback">
+                    <h4>Huda Zubir</h4>
+                    <small>Posted on: 2024-09-10</small>
+                    <p>I have someone who is currently going through a tough time with their mental health, and this article really helped me understand how to support them better. Thank you for providing such valuable information!</p>
+                </div>
+            </div>
+
+            <!-- Feedback Form -->
+            <div class="feedback-form">
+                <h2>💬 Share Your Feedback</h2>
+                <textarea id="feedbackInput" placeholder="Write your feedback here..." rows="5"></textarea>
+                <button id="submitFeedback" class="submit-feedback">Submit Feedback</button>
+                <p id="confirmationMessage" class="hidden">✅ Done submitting feedback!</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2024 Mindful Pathway | All Rights Reserved</p>
+            <p>Made with ❤️ for your mental well-being.</p>
+        </footer>
+    </div>
+</body>
+</html>
+
